@@ -31,7 +31,7 @@ a:hover {
   left: 0;
   right: 0;
   z-index: 999;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid black;
 
 }
@@ -84,6 +84,7 @@ a:hover {
   justify-content: flex-end;
   align-items: center;
   height: 500px;
+  min-width: 300px;
   border-bottom: 1px solid black;
 }
 
@@ -147,29 +148,17 @@ h3 {
 .simpletext {
   font-size: 1.2rem;
   line-height: 1.5em;
+  padding-bottom: 15px;
 }
 
 
 .gall {
 width: 100%;
-min-height: 200px;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-align-items: center;
-background-color: red;
+display: grid;
+grid-template-columns: 300px 1fr;
+gap: 15px;
+padding: 0;
 }
-
-.gallery img {
-  position: relative;
-
-  width: 300px;
-}
-
-.gallery img:hover {
-  z-index: 100;
-}
-
 
 .gallery {
   position: relative;
@@ -178,6 +167,10 @@ background-color: red;
   height: auto;
   overflow: hidden;
 }
+
+/*.gallery:active {
+scale: 1.5;
+}*/
 
 .images-wrapper {
   display: flex;
@@ -221,10 +214,23 @@ background-color: red;
   }
 }
 
-.gallery figcaption {
+.gallery img {
+  position: relative;
+  width: 300px;
+}
+
+.gallery img:hover {
 
 }
 
+.gallery figcaption {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  z-index: 10;
+  padding: 10px 15px;
+  background-color: rgba(213, 202, 184, .4);
+}
 
 .contact {
   text-align: center;
@@ -300,6 +306,15 @@ footer {
 
    h3 {
     font-size: 1.4rem;
+  }
+
+  .gall {
+    width: 100%;
+    min-width: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 1fr;
+    justify-items: center;
   }
 }
 
