@@ -70,15 +70,20 @@ a:hover {
  font-size: 1.2rem;
 }
 
+.tlo { 
+  background-attachment: fixed;
+  margin: auto 0px auto auto;
+  height: 500px;
+  background-image: url("https://cdn.jsdelivr.net/gh/szarlata/wizytowka@master/tlo.jpg");
+  background-size: cover;
+}
+
 .theme {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  margin: auto 0px auto auto;
   height: 500px;
-  background-image: url("https://cdn.jsdelivr.net/gh/szarlata/wizytowka@master/tlo.jpg");
-  background-size: cover;
   border-bottom: 1px solid black;
 }
 
@@ -138,10 +143,88 @@ h3 {
   width: 60%;
 }
 
+
 .simpletext {
   font-size: 1.2rem;
   line-height: 1.5em;
 }
+
+
+.gall {
+width: 100%;
+min-height: 200px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+background-color: red;
+}
+
+.gallery img {
+  position: relative;
+
+  width: 300px;
+}
+
+.gallery img:hover {
+  z-index: 100;
+}
+
+
+.gallery {
+  position: relative;
+  z-index: 5; 
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+}
+
+.images-wrapper {
+  display: flex;
+  align-items: center;
+  //-webkit-box-align: center;
+  //-ms-flex-align: center;
+ // -webkit-animation: slide 10s ease infinite alternate;
+  animation: slide 10s ease infinite alternate;
+  animation-delay: 2s;
+}
+
+.images-wrapper:hover {
+ animation-play-state: paused;
+}
+
+@keyframes slide {
+  0%, 11.1% {
+    //-webkit-transform: translateX(0);
+    transform: translateX(0);
+    transform: translateX(0);
+  }
+  22.2%,
+  33.3% {
+    transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  44.4%,
+  55.5% {
+    transform: translateX(-200%);
+    transform: translateX(-200%);
+  }
+  66.6%,
+  77.7% {
+    transform: translateX(-300%);
+    transform: translateX(-300%);
+  }
+   88.8%,
+   100% {
+    transform: translateX(-400%);
+    transform: translateX(-400%);
+  }
+}
+
+.gallery figcaption {
+
+}
+
 
 .contact {
   text-align: center;
