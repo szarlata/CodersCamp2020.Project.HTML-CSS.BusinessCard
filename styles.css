@@ -26,52 +26,6 @@ a:hover {
   background-color: rgba(82, 101, 127, .2);
 }
 
-.navigation {
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-  background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid black;
-
-}
-
-.navigation ul {
-  width: 80%;
-  max-width: 1000px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.navigation li {
-  min-height: 40px;
-  flex-basis: 90px;
-  flex-grow: 1;
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.navigation li a {
-  display: block;
-  text-align: center;
-  width: 100%;
-  padding: 8px;
-}
-
-
-
-.navigation li a:hover {
-  scale: 1.1;
-  background-color: rgba(82, 101, 127, .2);
-  transition: all 0.5s ease-in-out;
-}
-
-
 header { 
   height: 500px;
   background-image: url("tlo.jpg");
@@ -111,9 +65,9 @@ h1 {
   font-family: Merriweather, 'Times New Roman', serif;
   color: darkslategrey;
   text-align: center;
-  margin: 20px 20px;
+  margin: 20px 50px;
   padding: 0px 15px;
-  background-color: rgba(213, 202, 184, .4);
+  border-bottom: double 2px darkslategrey;
 }
 
 h2 {
@@ -123,7 +77,49 @@ h2 {
   text-align: center;
   margin: 20px 20px;
   padding: 0px 15px;
-  background-color: red;
+}
+
+.navigation {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: white;
+  border-bottom: 1px solid black;
+
+}
+
+.navigation ul {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navigation li {
+  min-height: 40px;
+  flex-basis: 90px;
+  flex-grow: 1;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation li a {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 8px;
+}
+
+.navigation li a:hover {
+  scale: 1.1;
+  background-color: rgba(82, 101, 127, .2);
+  transition: all 0.5s ease-in-out;
 }
 
 .site_content {
@@ -135,9 +131,7 @@ h2 {
 
 section {
   position: relative;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 30px;
+  padding: 25px 20px 10px 20px;
   border-left: solid 15px white;
   border-right: solid 15px white;
 }
@@ -154,7 +148,8 @@ section:target {
 h3 {
   font-family: Merriweather, 'Times New Roman', serif;
   font-size: 2rem;
-  margin: 20px 30px 0px 40px;
+  margin: 20px 30px 0px 30px;
+  padding-left: 20px;
   background-color: rgba(213, 202, 184, .8);
   width: 60%;
 }
@@ -189,7 +184,6 @@ h3 {
   transition: all 1s ease-out;
   opacity: 0.4;
 }
-
 
 .text-wrapper{
   position: relative;
@@ -253,6 +247,15 @@ padding-top: 30px;
   background-color: rgba(213, 202, 184, .4);
 }
 
+i {
+  font-size: 2rem;
+}
+
+.social > i {
+  font-size: 1rem;
+  padding: 10px;
+}
+
 address {
   font-size: 1.2rem;
   line-height: 1.5em;
@@ -260,18 +263,23 @@ address {
   text-align: center;
   font-weight: bold;
   font-style: normal;
-  background-color:  rgba(70, 89, 130, .3);
+  background-color:  rgba(125, 138, 167, .8);
 }
 
-.contact {
+address:hover {
+  background-color: rgba(70, 89, 130, .3);
+  transition: all 0.5s ease-in-out;
+}
+
+.survey {
   text-align: center;
-  margin: 40px 20px 30px 20px;
+  margin: 20px 20px 30px 20px;
   font-size: 1.2rem;
   line-height: 1.5em;
 }
 
-.contact form {
-  margin: auto;
+.survey form {
+  margin: auto auto 30px auto;
   padding: 20px 20px 0px 20px;
   border: 1px solid black;
   text-align: center;
@@ -279,18 +287,18 @@ address {
   min-width: 200px;
 }
 
-.contact ul {
+.survey ul {
   margin: auto;
   padding: 20px;
   list-style: none;
   text-align: left;
 }
 
-.contact input {
+.survey input {
   margin: 5px;
 }
 
-.button { 
+.survey button { 
   display: block;
   border: none; 
   background-color: rgba(213, 202, 184, .8);
@@ -298,15 +306,15 @@ address {
   margin: auto auto 20px auto;
   max-width: 200px;
   min-width: 100px;
-  } 
+} 
 
-.button:hover {
+.survey button:hover {
   background-color: rgba(82, 101, 127, .2);
 }
 
 
 footer {
-   background-color: rgba(70, 89, 130, .9);
+   background-color: 	rgb(125, 138, 167);
    border-top: 1px solid black;
    display: flex;
    justify-content: center;
