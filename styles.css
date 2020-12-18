@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 18px;
   font-family: Roboto, Helvetica, sans-serif;
 }
 
@@ -18,7 +18,6 @@ body {
 
 a {
   text-decoration: none;
-  font-size: 1.2rem;
   color: rgb(117, 40, 13);
 }
 
@@ -26,6 +25,7 @@ a:hover {
   background-color: rgba(82, 101, 127, .2);
 }
 
+/* header styling */
 header { 
   height: 500px;
   background-image: url("tlo.jpg");
@@ -60,18 +60,18 @@ header {
 }
 
 h1 {
-  font-size: 3.6rem;
+  font-size: calc(2.4rem + 1.5vw);
   font-variant: small-caps;
   font-family: Merriweather, 'Times New Roman', serif;
   color: darkslategrey;
   text-align: center;
   margin: 20px 50px;
   padding: 0px 15px;
-  border-bottom: double 2px darkslategrey;
+  border-bottom: solid 2px darkslategrey;
 }
 
 h2 {
-  font-size: 2.4rem;
+  font-size: calc(1.2rem + 1.5vw);
   font-family: Merriweather, 'Times New Roman', serif;
   color: rgb(117, 40, 13);
   text-align: center;
@@ -79,6 +79,7 @@ h2 {
   padding: 0px 15px;
 }
 
+/*navbar styling*/
 .navigation {
   position: sticky;
   top: 0;
@@ -121,6 +122,7 @@ h2 {
   background-color: rgba(82, 101, 127, .2);
   transition: all 0.5s ease-in-out;
 }
+/*navbar styling ends */
 
 .site_content {
   margin: auto;
@@ -147,17 +149,16 @@ section:target {
 
 h3 {
   font-family: Merriweather, 'Times New Roman', serif;
-  font-size: 2rem;
-  margin: 20px 30px 0px 30px;
-  padding-left: 20px;
+  font-size: 1.6rem;
+  margin: 20px auto 0px 0px;
+  padding-left: 40px;
   background-color: rgba(213, 202, 184, .8);
-  width: 60%;
+  /*width: 60%;*/
 }
 
 .simpletext {
   padding-top: 30px;
   position: relative;
-  font-size: 1.2rem;
   line-height: 1.5em;
   padding-bottom: 15px;
   background-color: white;
@@ -189,6 +190,9 @@ h3 {
   position: relative;
   z-index: 2;
 }
+
+
+/*gallery styling*/
 
 .gall-grid {
 width: 100%;
@@ -243,21 +247,17 @@ padding-top: 30px;
   bottom: 10px;
   width: 100%;
   z-index: 10;
+  font-size: 0.8rem;
   padding: 10px 15px;
   background-color: rgba(213, 202, 184, .4);
 }
+/*gallery styling ends here*/
 
-i {
-  font-size: 2rem;
-}
-
-.social > i {
-  font-size: 1rem;
-  padding: 10px;
+.gridtext {
+  align-self: center;
 }
 
 address {
-  font-size: 1.2rem;
   line-height: 1.5em;
   padding: 20px;
   text-align: center;
@@ -271,10 +271,29 @@ address:hover {
   transition: all 0.5s ease-in-out;
 }
 
+i {
+  font-size: 2rem;
+}
+
+address a:hover {
+  background-color: white;
+}
+
+a > i {
+  color: black;
+  font-size: 1.4rem;
+  padding: 10px;
+}
+
+a > i:hover {
+  background-color: white;
+  border-radius: 10px;
+  scale: 1.1;
+}
+
 .survey {
   text-align: center;
   margin: 20px 20px 30px 20px;
-  font-size: 1.2rem;
   line-height: 1.5em;
 }
 
@@ -320,6 +339,7 @@ footer {
    justify-content: center;
    align-items: center;
    height: 40px;
+   font-size: 0.8rem;
 }
 
 
@@ -345,13 +365,8 @@ footer {
     }
 
   h2 {
-    font-size: 2rem; 
+    font-size: 1.8rem; 
   }
-
-  h3 {
-  font-size: 1.8rem;
-  }
-
 }
 
 
@@ -372,7 +387,6 @@ footer {
     width: 100%;
   }
 
-
   .navigation li { 
     flex-basis: 100%;
   }
@@ -388,8 +402,17 @@ footer {
   }
 
  h3 {
-    margin: 30px 0px 20px 0px;
+    font-size: 1.4rem; 
+    margin-top: 10px;
+  margin-bottom: 10px;
+    padding-top: 0px;
     width: 100%;
+  }
+
+  .simpletext {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0px;
   }
 
   .gallery {
@@ -413,10 +436,22 @@ footer {
     position: relative;
     width: 300px;
   }
+
+  .simpletext {
+    font-size: 0.9rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .survey {
+    font-size: 0.9rem;
+
 }
 
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   .gallery {
     width: 200px;
   }
