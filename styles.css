@@ -293,7 +293,8 @@ a > i:hover {
 
 .survey {
   text-align: center;
-  margin: 20px 20px 30px 20px;
+  margin-top: 20px
+  margin-bottom: 30px;
   line-height: 1.5em;
 }
 
@@ -303,7 +304,6 @@ a > i:hover {
   border: 1px solid black;
   text-align: center;
   max-width: 500px;
-  min-width: 200px;
 }
 
 .survey ul {
@@ -373,6 +373,7 @@ footer {
 @media (max-width: 750px) {
 
   .navigation {
+    font-size: 0.8rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -387,10 +388,6 @@ footer {
     width: 100%;
   }
 
-  .navigation li { 
-    flex-basis: 100%;
-  }
-
   h1 {
     font-size: 2.2rem; 
     margin: 15px;
@@ -401,10 +398,10 @@ footer {
     margin: 15px;
   }
 
- h3 {
+  h3 {
     font-size: 1.4rem; 
     margin-top: 10px;
-  margin-bottom: 10px;
+    margin-bottom: 10px;
     padding-top: 0px;
     width: 100%;
   }
@@ -423,11 +420,18 @@ footer {
     position: relative;
     width: 400px;
   }
-
 }
 
-
 @media (max-width: 500px) {
+
+header {
+  height: 1vh;
+}
+
+  a {
+    font-size: 0.9rem;
+  }
+
   .gallery {
     width: 300px;
   }
@@ -441,31 +445,64 @@ footer {
     font-size: 0.9rem;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-top: 0px;
     margin-bottom: 0px;
   }
 
-  .survey {
+  address {
     font-size: 0.9rem;
+  }
 
+  .contact {
+    width: 100%;
+  }
+
+  .contact form {
+    padding: 20px 0px 0px 0px;
+  }
+
+  .survey form {
+    margin: auto auto 30px auto;
+    padding: 20px 0px 0px 0px;
+    border-left: none;
+    border-right: none;
+    font-size: 0.9rem;
+  }
+
+  .survey label {
+    font-size: 0.7rem;
+  }
 }
 
 
 @media (max-width: 400px) {
+  .navigation li {
+    flex-basis: 70px;
+  }
+
+  .navigation li a {
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 2rem; 
+    margin: 15px;
+  }
+
+  h2 {
+    font-size: 1.2rem; 
+    margin: 15px;
+  }
+
+ h3 {
+    font-size: 1.2rem; 
+  }
+
   .gallery {
-    width: 200px;
+    width: 250px;
   }
 
   .gallery img {
-    position: relative;
-    width: 200px;
-  }
-
-  .contact form {
-    padding: 20px 20px 0px 20px;
-    border: 1px solid black;
-    text-align: center;
-    width: 100%;
+    width: 250px;
   }
 }
 
