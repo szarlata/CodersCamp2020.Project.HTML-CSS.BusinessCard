@@ -293,7 +293,7 @@ a > i:hover {
 
 .survey {
   text-align: center;
-  margin-top: 20px
+  margin-top: 20px;
   margin-bottom: 30px;
   line-height: 1.5em;
 }
@@ -423,11 +423,6 @@ footer {
 }
 
 @media (max-width: 500px) {
-
-header {
-  height: 1vh;
-}
-
   a {
     font-size: 0.9rem;
   }
