@@ -7,11 +7,11 @@ Elementy zostały odrębnie ostylowane przy użyciu margin, padding oraz border.
 ![Box-model](./CHECKLIST/box-model2.jpg)
 
 ## Kaskadowość CSS
-Kaskadowość CSS widoczna jest w stylowaniu złożonych elementów strony.???
+Kaskadowość CSS widoczna jest w stylowaniu złożonych elementów strony.
 ![Kaskadowość](./CHECKLIST/kaskadowosc.jpg)
 
 ## Selektory CSS
-W kodzie CSS użyto głównie selektorów class, pseudoklas, selketorów potomka (X Y) oraz bezpośrednich dzieci (X > Y).  
+W kodzie CSS użyto głównie selektorów class, pseudoklas, sekletorów potomka (X Y) oraz bezpośrednich dzieci (X > Y).  
 ![Selektory](./CHECKLIST/selektory.jpg)
 
 ## Popularne tagi HTML
