@@ -1,3 +1,3 @@
-# wizytowka
+Projekt jest wizytówka mojej firmy zajmującej się konserwacją zabytków. Strona ma na celu....
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/wizytowka)
+Projekt wykonano w ramach kursu CodersCamp2020. 
