@@ -1,4 +1,3 @@
-###Wymagane zagadnienia wraz z ich realizacją:
 ## Box-model
 W projekcie dla właściwości box-sizing zastosowano prametr border-box, dzięki czemu włączono padding oraz border do całkowitej szerokości oraz wysokości elementów.  
 ![Box-model](./CHECKLIST/box-sizing.jpg)
@@ -28,6 +27,7 @@ Zostosowane zostały kolory w formacie RGBA, RGB, oraz posiadające nazwy.
 ![Kolory](./CHECKLIST/kolory.jpg)
 
 ## Stylowanie tekstu
+Stylowanie zostało zastosowane przy wszystkich elementach tekstowych.
 ![Stylowanie](./CHECKLIST/stylowanie.jpg)
     
 ## Zewnętrzne ikony/fonty (fontawesome, google fonts)
