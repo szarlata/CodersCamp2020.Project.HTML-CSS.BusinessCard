@@ -1,4 +1,4 @@
-#Wymagane zagadnienia wraz z ich realizacją:
+###Wymagane zagadnienia wraz z ich realizacją:
 ## Box-model
 W projekcie dla właściwości box-sizing zastosowano prametr border-box, dzięki czemu włączono padding oraz border do całkowitej szerokości oraz wysokości elementów.  
 ![Box-model](./CHECKLIST/box-sizing.jpg)
