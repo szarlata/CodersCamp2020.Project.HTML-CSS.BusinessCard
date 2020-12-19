@@ -49,7 +49,7 @@ Grid został użyty w sekcji "Projekty".
 ![flexbox](./CHECKLIST/grid.jpg)
 
 ## Position (absolute, relative)
-W projekcie wykorzystano position: absolute, relative oraz sticky. Position absolute było przydatne przy wykonywaniu podpisów dla zdjęć znajdujących się w animacji. Position dla zdjęc zostało ustawione na relative. Nawigacja posiada wartość sticky dzięki czemu po jej minięciu w trakcie scrollowania strony przemieszcza się ona do górnej krawędzi okna przeglądarki.
+W projekcie wykorzystano position: absolute, relative oraz sticky. Position absolute było przydatne przy wykonywaniu podpisów dla zdjęć znajdujących się w animacji. Position dla zdjęc zostało ustawione na relative. Nawigacja posiada wartość sticky dzięki czemu po jej minięciu w trakcie scrollowania strony przemieszcza się ona do górnej krawędzi okna przeglądarki.  
 ![Relative/absolute](./CHECKLIST/relativeabsolute.jpg)
 
 
