@@ -1,3 +1,5 @@
+[***DEMO***](https://szarlata.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/)
+
 Projekt znajdujący się w repozytorium jest wizytówką mojej firmy zajmującej się konserwacją dzieł sztuki. Stworzyłam ją z wykorzystaniem HTML oraz CSS. Podczas jej tworzenia miałam na celu krótkie przedstawienie działalności firmy.
 
 Strona składa się z nagłówka, menu, głównej treści podzielonej na sekcje oraz stopki. W jej nagłówku umieszczone zostały elementy związane z identyfikacją wizualną firmy - logo wraz z nazwą przedsiębiorstwa oraz oddające charakter działalności tło. Główną treść strony przedstawiłam w 3 działach - “O firmie”, “Realizacje” oraz “Kontakt” do których łatwy dostęp gwarantuje listwa menu znajdująca się podczas przeglądania strony przy głównej krawędzi okna przeglądarki. W stopce umieściłam dane twórcy. 
